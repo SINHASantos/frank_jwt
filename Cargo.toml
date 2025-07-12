@@ -1,17 +1,19 @@
 [package]
+name = "frank_jwt"
+version = "3.1.4"
+edition = "2024"
 authors = ["Alex Maslakov <a25@serendipia.email>"]
 description = "Implementation of JSON JWT"
 documentation = "https://github.com/GildedHonour/frank_jwt"
 homepage = "https://github.com/GildedHonour/frank_jwt"
 keywords = ["jwt", "json", "token", "encryption", "auth0-jwt"]
 license = "Apache-2.0"
-name = "frank_jwt"
 readme = "README.md"
 repository = "https://github.com/GildedHonour/frank_jwt"
-version = "3.1.3"
+
 
 [dependencies]
-base64 = "0.13.0"
-openssl = "0.10.41"
-serde = "1.0.143"
-serde_json = "1.0.83"
+base64 = "0.22.1"
+openssl = "0.10.73"
+serde = "1.0.219"
+serde_json = "1.0.140"
